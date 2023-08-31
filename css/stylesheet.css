@@ -1,0 +1,325 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+
+}
+
+body{
+
+    background: #f2f2f2;
+
+}
+
+h2{
+
+    text-align: center;
+
+    font-size: 25px;
+
+    margin: 10px 0px;
+
+}
+
+img{
+
+    width: 200px;
+
+    height: 200px;
+
+    text-align: center;
+
+    margin: 0 auto;
+
+    display: block;
+
+}
+
+
+
+p{
+
+    text-align: center;
+
+    color: #b2bec3;
+
+    color: #222f3e;
+
+    margin: 20px 0;
+
+    padding: 0 10px
+
+}
+
+h3{
+
+    font-size: 20px;
+
+    text-align: left;
+
+    padding: 0 20px;
+
+    color: #222f3e;
+
+    margin: 10px 5px;
+
+}
+
+h4{
+
+    font-size: 15px;
+
+    text-align: left;
+
+    color: #222f3e;
+
+    margin: 10px 5px;
+
+    padding: 0px 80px;
+
+}
+
+ul{
+
+    list-style: none;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: start;
+
+    padding:0 40px
+
+}
+
+li{
+
+    font-size: 15px;
+
+    padding: 10px 0;
+
+}
+
+button{
+
+    font-size: 20px;
+
+    text-align: center;
+
+    color: #fff;
+
+    width: 100%;
+
+    padding: 10px 0;
+
+    margin: 5px 0px 0px;
+
+    border: 0;
+
+    outline: none;
+
+    cursor:pointer;
+
+    border-radius: 0 0 20px 20px;
+
+    background-color: #ff9f43;
+
+}
+
+a{
+
+    text-decoration:none;
+
+                    color: #fff;
+
+}
+
+input[type="file"] {
+
+display: none;
+
+}
+
+.custom-file-upload {
+
+border: 1px solid #ccc;
+
+display: inline-block;
+
+padding: 6px 12px;
+
+cursor: pointer;
+
+    text-align: center;
+
+    display: flex;
+
+    justify-content: center;
+
+    background: #FFFDD0;
+
+}
+
+.gallery{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 100%;
+
+    margin: 20px 0px;
+
+}
+
+.content{
+
+    width: 30%;
+
+    margin: 15px;
+
+    float: center;
+
+    text-align: center;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+
+                                                    0 10px 10px rgba(0,0,0,0.20);
+
+    transition: 0.4s;
+
+    background: #f2f2f2;
+
+}
+
+.content:hover{
+
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15),
+
+                                                    0 3px 6px rgba(0,0,0,0.20);
+
+    transform: translate(0px, -8px);
+
+}
+
+
+
+#search {
+
+background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+
+background-position: 10px 12px; /* Position the search icon */
+
+background-repeat: no-repeat; /* Do not repeat the icon image */
+
+width: 100%; /* Full-width */
+
+font-size: 16px; /* Increase font-size */
+
+padding: 12px 20px 12px 40px; /* Add some padding */
+
+border: 1px solid #ddd; /* Add a grey border */
+
+margin-bottom: 12px; /* Add some space below the input */
+
+}
+
+
+
+@media(max-width: 1650px) {
+
+    .content{
+
+                    width: 40%;
+
+    }
+
+}
+
+
+
+@media(max-width: 1425px) {
+
+    .content{
+
+                    width: 50%;
+
+    }
+
+}
+
+
+
+@media(max-width: 1140px) {
+
+    .content{
+
+                    width: 60%;
+
+    }
+
+}
+
+
+
+@media(max-width: 950px) {
+
+    .content{
+
+                    width: 70%;
+
+    }
+
+}
+
+
+
+@media(max-width: 830px) {
+
+    .content{
+
+                    width: 80%;
+
+    }
+
+}
+
+
+
+@media(max-width: 720px) {
+
+    .content{
+
+                    width: 90%;
+
+    }
+
+}
+
+
+
+@media(max-width: 640px) {
+
+    .content{
+
+                    width: 100%;
+
+    }
+
+}
